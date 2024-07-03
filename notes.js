@@ -20,4 +20,6 @@ that, you will see that the index.js file is using an old type of code, so write
 of the compiler. After that just write "tsc" in the terminal, it should change the weird old code to a new one. But to the tsc code to work(the compiler to work), we don't want to...
 write that all the time we do a change, so write "tsc --watch" 
 
+12:47 frontend Simplified! and after the web dev simplified typescript playlist
+
 */
