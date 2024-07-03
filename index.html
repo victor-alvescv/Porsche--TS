@@ -7,34 +7,63 @@
     <script defer src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/logo--ico.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <img class="absolute--img" src="/assets/logo--icon.png" alt="" />
+    <img
+      class="absolute--img"
+      data-aos="fade-in"
+      src="/assets/logo--icon.png"
+      alt=""
+    />
     <img
       class="absolute--img"
       style="left: 92%"
       src="/assets/logo--icon.png"
       alt=""
+      data-aos="fade-in"
     />
     <div class="more__info--wrapper">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-      </svg>      
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 4.5v15m7.5-7.5h-15"
+        />
+      </svg>
       <p>more info</p>
     </div>
     <div class="more__info--wrapper second">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-      </svg>      
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 4.5v15m7.5-7.5h-15"
+        />
+      </svg>
       <p>718 GTS 4.0 Models</p>
     </div>
-    
+
     <div class="wrapper">
-      <div class="logo--wrapper">
+      <div class="logo--wrapper" data-aos="fade-in" data-aos-delay="200">
         <img class="icon" src="assets/logo--icon.png" alt="" />
         <img class="logo" src="assets/logo--small.png" alt="" />
       </div>
-      <div class="content--wrapper">
+      <div data-aos="fade-in" data-aos-delay="200" class="content--wrapper">
         <div class="img--wrapper">
           <img src="assets/porsche.jpg" alt="" />
           <div class="border"></div>
@@ -42,14 +71,38 @@
           <div class="picture--overlay"></div>
         </div>
         <div class="porsche">
-          <p class="content--title">718 CAYMAN</p>
-          <p class="content--year">2020</p>
-          <div class="division__line">
+          <p
+            data-aos="fade-down"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+            class="content--title"
+          >
+            718 CAYMAN
+          </p>
+          <p
+            data-aos="fade-in"
+            data-aos-delay="600"
+            data-aos-duration="500"
+            class="content--year"
+          >
+            2020
+          </p>
+          <div
+            data-aos="fade-in"
+            data-aos-delay="800"
+            data-aos-duration="500"
+            class="division__line"
+          >
             <div class="line"></div>
             <img src="assets/logo--small.png" alt="" />
             <div class="line"></div>
           </div>
-          <div class="content--specs">
+          <div
+            data-aos="fade-in"
+            data-aos-delay="1000"
+            data-aos-duration="500"
+            class="content--specs"
+          >
             <div class="specs">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +156,12 @@
               <p class="specs--title">275 km/h</p>
               <p class="specs--sub-title">Top Speed</p>
             </div>
-            <div class="division__line">
+            <div
+              data-aos="fade-in"
+              data-aos-delay="800"
+              data-aos-duration="500"
+              class="division__line"
+            >
               <div class="line"></div>
               <img src="assets/logo--small.png" alt="" />
               <div class="line"></div>
@@ -113,4 +171,8 @@
       </div>
     </div>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
