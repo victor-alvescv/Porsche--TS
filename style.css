@@ -8,9 +8,9 @@
 }
 
 body {
-  overflow-y: hidden;
   position: relative;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .absolute--img {
@@ -220,7 +220,7 @@ body {
   font-weight: 500;
 }
 
-.more__info--wrapper  {
+.more__info--wrapper {
   position: absolute;
   display: flex;
   align-items: center;
@@ -239,8 +239,8 @@ body {
 }
 
 .more__info--wrapper svg {
-   width: 18px;
-   margin-top: 3px;
+  width: 18px;
+  margin-top: 3px;
 }
 
 .second {
